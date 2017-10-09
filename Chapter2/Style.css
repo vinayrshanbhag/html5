@@ -53,3 +53,15 @@ table#topics tr:last-child td:last-child{
 form#addSpeaker fieldset label{
     display: block;
 }
+
+fieldset{
+    border-radius: 10px;
+    background-color: red;
+    box-shadow: 15px 15px 15px Grey;
+}
+
+input{
+    border-radius: 10px;
+    background-color: rgba(0,255,0,0.50);
+}
+

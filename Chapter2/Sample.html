@@ -26,7 +26,7 @@
         <article>
             <h3> Venkat Subramanium</h3>
             <p>Agile Developer</p>
-            <aside><p>Recovering Programmer</p></aside>       
+            <aside><p contenteditable="true">Recovering Programmer</p></aside>       
         </article>
     </section>
     
@@ -57,13 +57,13 @@
             <form id ="addSpeaker" method="post">
                 <fieldset id="addSpeaker">
                     <label>name</label>
-                    <input type="input" name="name"> </input>
+                    <input type="text" name="name" placeholder="first last" autofocus autocomplete="off" required="true"> </input>
                 
                     <label>Email</label>
-                    <input type="input" placeholder="name@example.com"> </input>
+                    <input type="email" placeholder="name@example.com"> </input>
                   
                     <label>Website</label>
-                    <input type="input" name="theUrl"> </input>
+                    <input type="url" name="theUrl"> </input>
             
                      <label>Talks</label>
                     <input type="number" name="talks" min="1" max="5" value="3"> </input>
@@ -72,10 +72,14 @@
                     <input type="range" name="level" min ="1" max = "10" value ="7"> </input>
 
                      <label>Arrival</label>
-                     <input type="date" name = "arrival" value = "2012-02-24"></input>
+                     <input type="datetime" name = "arrival" value = "2012-02-24"></input> 
+                
+                     <label>Telephone</label>
+                     <input type="tel"></input>
                     
-                    <input type="submit">
+                    
                 </fieldset>
+               <input type="submit"></input> 
             </form>
         </article>
      </section>
@@ -85,5 +89,14 @@
     <hr></hr>
     <p>&copy; 2012-2013- All rights reservered</p>
     </footer>
+    <head>
+        <script>
+            
+        
+        
+        </script>
+
+
+    </head>
 
 </html>
