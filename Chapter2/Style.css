@@ -1,0 +1,52 @@
+header#navigation nav ul{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header#navigation nav ul li{
+    display: inline;
+}
+
+section{
+    clear: both;
+}
+
+section#speakerList{
+    width:40%;
+    clear:both;
+} 
+
+section#speakerList article{
+    float: left;
+    width:75%;
+}
+
+section#speakerList article:nth-of-type(even){
+    font-size:20px;
+    background-color: #C1C1C1;
+}
+
+section#speakerList aside{
+    float: right;
+    width: 25%;
+}
+
+footer#copyright{
+    clear: both;
+}
+
+table#topics tr:nth-of-type(even){
+    background-color: aquamarine
+}
+
+table#topics tr:nth-of-type(odd){
+    background-color: chartreuse;
+}
+
+table#topics tr:last-child td:last-child{
+    font-weight: bold;
+}
+
