@@ -54,13 +54,30 @@
     <section>        
         <article>
             <h3> Add Speaker</h3>
-        
-        
-        
+            <form id ="addSpeaker" method="post">
+                <fieldset id="addSpeaker">
+                    <label>name</label>
+                    <input type="input" name="name"> </input>
+                
+                    <label>Email</label>
+                    <input type="input" placeholder="name@example.com"> </input>
+                  
+                    <label>Website</label>
+                    <input type="input" name="theUrl"> </input>
+            
+                     <label>Talks</label>
+                    <input type="number" name="talks" min="1" max="5" value="3"> </input>
+             
+                    <label>Level</label>
+                    <input type="range" name="level" min ="1" max = "10" value ="7"> </input>
+
+                     <label>Arrival</label>
+                     <input type="date" name = "arrival" value = "2012-02-24"></input>
+                    
+                    <input type="submit">
+                </fieldset>
+            </form>
         </article>
-
-
-
      </section>
     
     <footer id = "copyright">

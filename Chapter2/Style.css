@@ -50,3 +50,6 @@ table#topics tr:last-child td:last-child{
     font-weight: bold;
 }
 
+form#addSpeaker fieldset label{
+    display: block;
+}
