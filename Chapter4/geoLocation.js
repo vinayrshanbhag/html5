@@ -31,5 +31,12 @@ var getGeoLocation = function(elementToUpdate){
         alert('Error receiving location info' + errorMessage[error.code]);
     }
     
-    navigator.geolocation.getCurrentPosition(locationInfo,locationInfoError);
+    //navigator.geolocation.getCurrentPosition(locationInfo,locationInfoError);
+    var options = {
+        enableHighAccuracy:true,
+        timeout:1000,
+        maximumAge:30000
+    };
+    
+    navigator.geolocation.watchPosition(locationInfo,locationInfoError,options);
 }
